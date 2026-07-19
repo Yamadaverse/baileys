@@ -150,7 +150,7 @@ await sock.sendMessage(jid, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "OTAX Baileys",
+        footer: "OMNIX Baileys",
         buttons: [
             {
                 name: "cta_copy",
