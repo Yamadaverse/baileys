@@ -186,14 +186,14 @@ await sock.sendMessage(jid, {
                 bottom_sheet: {            
                     in_thread_buttons_limit: 2,            
                     divider_indices: [1, 2, 3, 4, 5, 999],            
-                    list_title: "OTAX Baileys",            
-                    button_title: "OTAX Baileys"          
+                    list_title: "OMNIX Baileys",            
+                    button_title: "OMNIX Baileys"          
                 },          
                 tap_target_configuration: {            
                     title: " OMNIX ",            
                     description: "OMNIX Baileys",            
-                    canonical_url: "https://t.me/otaxbaileys",            
-                    domain: "otax.example.com",            
+                    canonical_url: "https://t.me/omnixbaileys",            
+                    domain: "omnix.example.com",            
                     button_index: 0          
                 }        
             }),        
@@ -220,7 +220,7 @@ await sock.sendMessage(jid, {
                                 highlight_label: "label",                  
                                 rows: [                    
                                     {                      
-                                        title: "OTAX Baileys",                      
+                                        title: "OMNIX Baileys",                      
                                         description: "love you",                      
                                         id: "row_2"                    
                                     }                  
@@ -308,7 +308,7 @@ await sock.sendMessage(jid, {
         footer: "OMNIX Baileys",
         document: fs.readFileSync("./package.json"),
         mimetype: "application/pdf",
-        fileName: "otaxbaileys.pdf",
+        fileName: "omnixbaileys.pdf",
         jpegThumbnail: fs.readFileSync("./document.jpeg"),
         contextInfo: {
             mentionedJid: [jid],
@@ -320,8 +320,8 @@ await sock.sendMessage(jid, {
             body: "OMNIX team",
             mediaType: 3,
             thumbnailUrl: "https://example.com/image.jpg",
-            mediaUrl: " OTAX ",
-            sourceUrl: "https://t.me/otaxbaileys",
+            mediaUrl: " OMNIX ",
+            sourceUrl: "https://t.me/OMNIXbaileys",
             showAdAttribution: true,
             renderLargerThumbnail: false         
         },
@@ -330,8 +330,8 @@ await sock.sendMessage(jid, {
                 name: "cta_url",
                 buttonParamsJson: JSON.stringify({
                     display_text: "Telegram",
-                    url: "https://t.me/otaxbaileys",
-                    merchant_url: "https://t.me/otaxbaileys"
+                    url: "https://t.me/omnixbaileys",
+                    merchant_url: "https://t.me/omnixbaileys"
                 })
             }
         ]
@@ -350,15 +350,15 @@ await sock.sendMessage(jid, {
         footer: "OMNIX Baileys",
         document: fs.readFileSync("./package.json"),
         mimetype: "application/pdf",
-        fileName: "otaxbaileys.pdf",
+        fileName: "omnixbaileys.pdf",
         jpegThumbnail: fs.readFileSync("./document.jpeg"),
         buttons: [
             {
                 name: "cta_url",
                 buttonParamsJson: JSON.stringify({
                     display_text: "Telegram",
-                    url: "https://t.me/otaxbaileys",
-                    merchant_url: "https://t.me/otaxbaileys"
+                    url: "https://t.me/omnixbaileys",
+                    merchant_url: "https://t.me/omnixbaileys"
                 })
             }
         ]
