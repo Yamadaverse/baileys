@@ -173,14 +173,14 @@ await sock.sendMessage(jid, {
     interactiveMessage: {      
         header: "Hello World",
         title: "Hello World",      
-        footer: "OTAX Baileys",      
+        footer: "OMNIX Baileys",      
         image: { url: "https://example.com/image.jpg" },      
         nativeFlowMessage: {        
             messageParamsJson: JSON.stringify({          
                 limited_time_offer: {            
                     text: "idk hummmm?",            
-                    url: "https://t.me/otaxbaileys",            
-                    copy_code: "otaxbaileys",            
+                    url: "https://t.me/omnixbaileys",            
+                    copy_code: "omnixbaileys",            
                     expiration_time: Date.now() * 999          
                 },          
                 bottom_sheet: {            
@@ -190,8 +190,8 @@ await sock.sendMessage(jid, {
                     button_title: "OTAX Baileys"          
                 },          
                 tap_target_configuration: {            
-                    title: " OTAX ",            
-                    description: "OTAX Baileys",            
+                    title: " OMNIX ",            
+                    description: "OMNIX Baileys",            
                     canonical_url: "https://t.me/otaxbaileys",            
                     domain: "otax.example.com",            
                     button_index: 0          
@@ -252,7 +252,7 @@ await sock.sendMessage(jid, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "OTAX Baileys",
+        footer: "OMNIX Baileys",
         image: { url: "https://example.com/image.jpg" },
         buttons: [
             {
@@ -305,7 +305,7 @@ await sock.sendMessage(jid, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "OTAX Baileys",
+        footer: "OMNIX Baileys",
         document: fs.readFileSync("./package.json"),
         mimetype: "application/pdf",
         fileName: "otaxbaileys.pdf",
@@ -316,8 +316,8 @@ await sock.sendMessage(jid, {
             isForwarded: false
         },
         externalAdReply: {
-            title: "OTAX Bot",
-            body: "OTAX team",
+            title: "OMNIX Bot",
+            body: "OMNIX team",
             mediaType: 3,
             thumbnailUrl: "https://example.com/image.jpg",
             mediaUrl: " OTAX ",
@@ -347,7 +347,7 @@ await sock.sendMessage(jid, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "OTAX Baileys",
+        footer: "OMNIX Baileys",
         document: fs.readFileSync("./package.json"),
         mimetype: "application/pdf",
         fileName: "otaxbaileys.pdf",
